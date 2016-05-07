@@ -1,0 +1,165 @@
+<svg viewBox="0 0 672.9200000000001 730" width="672.9200000000001" height="730" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <g>
+      <line x1="0" y1="0" x2="0" y2="20" stroke="black" stroke-width="3"/>
+      <text x="5" y="17">launch edge time</text>
+    </g>
+    <g>
+      <line x1="0" y1="20" x2="88.44" y2="40" stroke="black" stroke-width="3"/>
+      <text x="93.44" y="37">clock network delay</text>
+    </g>
+    <g>
+      <line x1="88.44000000000001" y1="40" x2="96.4" y2="60" stroke="black" stroke-width="3"/>
+      <text x="101.4" y="57">ir0[8]</text>
+    </g>
+    <g>
+      <rect x="96.4" y="60" width="0" height="20" fill-opacity="0.2"/>
+      <line x1="96.4" y1="60" x2="96.4" y2="80" stroke="black" stroke-width="3"/>
+      <text x="101.4" y="77">ir0[8]|q</text>
+    </g>
+    <g>
+      <line x1="96.4" y1="80" x2="120.67999999999999" y2="100" stroke="black" stroke-width="3"/>
+      <text x="125.67999999999999" y="97">u_tail_offset|u_len0010|len[0]~0|dataa</text>
+    </g>
+    <g>
+      <rect x="120.67999999999999" y="100" width="14.64" height="20" fill-opacity="0.2"/>
+      <line x1="120.67999999999999" y1="100" x2="135.32" y2="120" stroke="black" stroke-width="3"/>
+      <text x="140.32" y="117">u_tail_offset|u_len0010|len[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="135.32" y1="120" x2="145" y2="140" stroke="black" stroke-width="3"/>
+      <text x="150" y="137">u_tail_offset|of0011[0]~0|dataa</text>
+    </g>
+    <g>
+      <rect x="145" y="140" width="14.68" height="20" fill-opacity="0.2"/>
+      <line x1="145" y1="140" x2="159.68" y2="160" stroke="black" stroke-width="3"/>
+      <text x="164.68" y="157">u_tail_offset|of0011[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="159.68" y1="160" x2="169.16" y2="180" stroke="black" stroke-width="3"/>
+      <text x="174.16" y="177">u_tail_offset|of0100[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="169.16" y="180" width="14.76" height="20" fill-opacity="0.2"/>
+      <line x1="169.16" y1="180" x2="183.92" y2="200" stroke="black" stroke-width="3"/>
+      <text x="188.92" y="197">u_tail_offset|of0100[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="183.92" y1="200" x2="193.4" y2="220" stroke="black" stroke-width="3"/>
+      <text x="198.4" y="217">u_tail_offset|of0101[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="193.4" y="220" width="14.76" height="20" fill-opacity="0.2"/>
+      <line x1="193.4" y1="220" x2="208.16" y2="240" stroke="black" stroke-width="3"/>
+      <text x="213.16" y="237">u_tail_offset|of0101[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="208.16000000000003" y1="240" x2="222.92000000000002" y2="260" stroke="black" stroke-width="3"/>
+      <text x="227.92000000000002" y="257">u_tail_offset|of0110[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="222.92000000000002" y="260" width="14.76" height="20" fill-opacity="0.2"/>
+      <line x1="222.92000000000002" y1="260" x2="237.68" y2="280" stroke="black" stroke-width="3"/>
+      <text x="242.68" y="277">u_tail_offset|of0110[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="237.68" y1="280" x2="247.16000000000003" y2="300" stroke="black" stroke-width="3"/>
+      <text x="252.16000000000003" y="297">u_tail_offset|of0111[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="247.16000000000003" y="300" width="14.76" height="20" fill-opacity="0.2"/>
+      <line x1="247.16000000000003" y1="300" x2="261.92" y2="320" stroke="black" stroke-width="3"/>
+      <text x="266.92" y="317">u_tail_offset|of0111[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="261.92" y1="320" x2="271.4" y2="340" stroke="black" stroke-width="3"/>
+      <text x="276.4" y="337">u_tail_offset|of1000[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="271.4" y="340" width="14.76" height="20" fill-opacity="0.2"/>
+      <line x1="271.4" y1="340" x2="286.15999999999997" y2="360" stroke="black" stroke-width="3"/>
+      <text x="291.15999999999997" y="357">u_tail_offset|of1000[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="286.15999999999997" y1="360" x2="295.68" y2="380" stroke="black" stroke-width="3"/>
+      <text x="300.68" y="377">u_tail_offset|of1001[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="295.67999999999995" y="380" width="13.440000000000001" height="20" fill-opacity="0.2"/>
+      <line x1="295.67999999999995" y1="380" x2="309.12" y2="400" stroke="black" stroke-width="3"/>
+      <text x="314.12" y="397">u_tail_offset|of1001[0]~0|combout</text>
+    </g>
+    <g>
+      <line x1="309.12" y1="400" x2="324.20000000000005" y2="420" stroke="black" stroke-width="3"/>
+      <text x="329.20000000000005" y="417">u_tail_offset|of1010[0]~0|datab</text>
+    </g>
+    <g>
+      <rect x="324.20000000000005" y="420" width="16.4" height="20" fill-opacity="0.2"/>
+      <line x1="324.20000000000005" y1="420" x2="340.6" y2="440" stroke="black" stroke-width="3"/>
+      <text x="345.6" y="437">u_tail_offset|of1010[0]~0|cout</text>
+    </g>
+    <g>
+      <line x1="340.6" y1="440" x2="340.6" y2="460" stroke="black" stroke-width="3"/>
+      <text x="345.6" y="457">u_tail_offset|of1010[1]~2|cin</text>
+    </g>
+    <g>
+      <rect x="340.6" y="460" width="18.2" height="20" fill-opacity="0.2"/>
+      <line x1="340.6" y1="460" x2="358.8" y2="480" stroke="black" stroke-width="3"/>
+      <text x="363.8" y="477">u_tail_offset|of1010[1]~2|combout</text>
+    </g>
+    <g>
+      <line x1="358.8" y1="480" x2="366.8" y2="500" stroke="black" stroke-width="3"/>
+      <text x="371.8" y="497">u_tail_offset|of1011[1]~2|dataa</text>
+    </g>
+    <g>
+      <rect x="366.8" y="500" width="15.04" height="20" fill-opacity="0.2"/>
+      <line x1="366.8" y1="500" x2="381.84" y2="520" stroke="black" stroke-width="3"/>
+      <text x="386.84" y="517">u_tail_offset|of1011[1]~2|combout</text>
+    </g>
+    <g>
+      <line x1="381.84000000000003" y1="520" x2="391.36" y2="540" stroke="black" stroke-width="3"/>
+      <text x="396.36" y="537">u_tail_offset|of1100[1]~2|datab</text>
+    </g>
+    <g>
+      <rect x="391.36" y="540" width="17.84" height="20" fill-opacity="0.2"/>
+      <line x1="391.36" y1="540" x2="409.20000000000005" y2="560" stroke="black" stroke-width="3"/>
+      <text x="414.20000000000005" y="557">u_tail_offset|of1100[1]~2|cout</text>
+    </g>
+    <g>
+      <line x1="409.20000000000005" y1="560" x2="409.20000000000005" y2="580" stroke="black" stroke-width="3"/>
+      <text x="414.20000000000005" y="577">u_tail_offset|of1100[2]~4|cin</text>
+    </g>
+    <g>
+      <rect x="409.20000000000005" y="580" width="18.2" height="20" fill-opacity="0.2"/>
+      <line x1="409.20000000000005" y1="580" x2="427.40000000000003" y2="600" stroke="black" stroke-width="3"/>
+      <text x="432.40000000000003" y="597">u_tail_offset|of1100[2]~4|combout</text>
+    </g>
+    <g>
+      <line x1="427.40000000000003" y1="600" x2="435.36" y2="620" stroke="black" stroke-width="3"/>
+      <text x="440.36" y="617">of_r1101[2]~8|datab</text>
+    </g>
+    <g>
+      <rect x="435.36" y="620" width="16.4" height="20" fill-opacity="0.2"/>
+      <line x1="435.36" y1="620" x2="451.76" y2="640" stroke="black" stroke-width="3"/>
+      <text x="456.76" y="637">of_r1101[2]~8|cout</text>
+    </g>
+    <g>
+      <line x1="451.76" y1="640" x2="451.76" y2="660" stroke="black" stroke-width="3"/>
+      <text x="456.76" y="657">of_r1101[3]~10|cin</text>
+    </g>
+    <g>
+      <rect x="451.76" y="660" width="18.2" height="20" fill-opacity="0.2"/>
+      <line x1="451.76" y1="660" x2="469.96000000000004" y2="680" stroke="black" stroke-width="3"/>
+      <text x="474.96000000000004" y="677">of_r1101[3]~10|combout</text>
+    </g>
+    <g>
+      <line x1="469.96000000000004" y1="680" x2="469.96000000000004" y2="700" stroke="black" stroke-width="3"/>
+      <text x="474.96000000000004" y="697">of_r1101[3]~reg0|d</text>
+    </g>
+    <g>
+      <rect x="469.96000000000004" y="700" width="2.96" height="20" fill-opacity="0.2"/>
+      <line x1="469.96000000000004" y1="700" x2="472.92" y2="720" stroke="black" stroke-width="3"/>
+      <text x="477.92" y="717">of_r1101[3]~reg0</text>
+    </g>
+  </g>
+</svg>

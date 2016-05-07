@@ -1,0 +1,23 @@
+{
+  "name": "sta",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/sta.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/sta/issues"
+  },
+  "homepage": "https://github.com/drom/sta#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "onml": "^0.3.1"
+  }
+}
