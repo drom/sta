@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/drom/sta#readme",
   "devDependencies": {
+    "fs-extra": "^0.30.0",
     "mocha": "^2.4.5",
-    "onml": "^0.3.1"
+    "onml": "^0.3.1",
+    "yargs": "^4.7.0"
   }
 }

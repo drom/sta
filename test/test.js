@@ -9,7 +9,6 @@ describe('test', function () {
         var src = [];
         var res = lib.render(path1);
         var svg = onml.s(res);
-        console.log(svg);
         done();
     });
 });
