@@ -1,184 +1,199 @@
 <svg viewBox="0 0 741 730" width="741" height="730" xmlns="http://www.w3.org/2000/svg">
-  <g>
+  <g transform="translate(0.5,0.5)">
     <g>
       <text x="3" y="17">launch edge time</text>
-      <line x1="0" y1="0" x2="0" y2="20" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="0" y1="0" x2="0" y2="20" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="114" y="37">clock network delay</text>
-      <line x1="0" y1="20" x2="111" y2="40" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="0" y1="20" x2="111" y2="40" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="124" y="57">ir0[8]</text>
-      <line x1="111" y1="40" x2="121" y2="60" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="111" y1="40" x2="121" y2="60" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="124" y="77">ir0[8] | q</text>
       <rect x="121" y="60" width="0" height="20" fill-opacity="0.2"/>
-      <line x1="121" y1="60" x2="121" y2="80" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="121" y1="60" x2="121" y2="80" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="121" y="60" width="0" height="20" fill-opacity="0.2"/>
       <text x="154" y="97">u_tail_offset | u_len0010 | len[0]~0 | dataa</text>
-      <line x1="121" y1="80" x2="151" y2="100" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="121" y1="80" x2="151" y2="100" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="172" y="117">combout</text>
       <rect x="151" y="100" width="18.3" height="20" fill-opacity="0.2"/>
-      <line x1="151" y1="100" x2="169" y2="120" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="151" y1="100" x2="169" y2="120" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="121" y="80" width="48" height="40" fill-opacity="0.2"/>
       <rect x="121" y="80" width="48" height="40" fill-opacity="0.2"/>
       <text x="184" y="137">of0011[0]~0 | dataa</text>
-      <line x1="169" y1="120" x2="181" y2="140" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="169" y1="120" x2="181" y2="140" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="203" y="157">combout</text>
       <rect x="181" y="140" width="18.35" height="20" fill-opacity="0.2"/>
-      <line x1="181" y1="140" x2="200" y2="160" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="181" y1="140" x2="200" y2="160" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="169" y="120" width="31" height="40" fill-opacity="0.2"/>
       <text x="214" y="177">of0100[0]~0 | datab</text>
-      <line x1="200" y1="160" x2="211" y2="180" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="200" y1="160" x2="211" y2="180" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="233" y="197">combout</text>
       <rect x="211" y="180" width="18.45" height="20" fill-opacity="0.2"/>
-      <line x1="211" y1="180" x2="230" y2="200" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="211" y1="180" x2="230" y2="200" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="200" y="160" width="30" height="40" fill-opacity="0.2"/>
       <text x="245" y="217">of0101[0]~0 | datab</text>
-      <line x1="230" y1="200" x2="242" y2="220" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="230" y1="200" x2="242" y2="220" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="263" y="237">combout</text>
       <rect x="242" y="220" width="18.45" height="20" fill-opacity="0.2"/>
-      <line x1="242" y1="220" x2="260" y2="240" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="242" y1="220" x2="260" y2="240" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="230" y="200" width="30" height="40" fill-opacity="0.2"/>
       <text x="282" y="257">of0110[0]~0 | datab</text>
-      <line x1="260" y1="240" x2="279" y2="260" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="260" y1="240" x2="279" y2="260" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="300" y="277">combout</text>
       <rect x="279" y="260" width="18.45" height="20" fill-opacity="0.2"/>
-      <line x1="279" y1="260" x2="297" y2="280" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="279" y1="260" x2="297" y2="280" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="260" y="240" width="37" height="40" fill-opacity="0.2"/>
       <text x="312" y="297">of0111[0]~0 | datab</text>
-      <line x1="297" y1="280" x2="309" y2="300" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="297" y1="280" x2="309" y2="300" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="330" y="317">combout</text>
       <rect x="309" y="300" width="18.45" height="20" fill-opacity="0.2"/>
-      <line x1="309" y1="300" x2="327" y2="320" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="309" y1="300" x2="327" y2="320" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="297" y="280" width="30" height="40" fill-opacity="0.2"/>
       <text x="342" y="337">of1000[0]~0 | datab</text>
-      <line x1="327" y1="320" x2="339" y2="340" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="327" y1="320" x2="339" y2="340" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="361" y="357">combout</text>
       <rect x="339" y="340" width="18.45" height="20" fill-opacity="0.2"/>
-      <line x1="339" y1="340" x2="358" y2="360" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="339" y1="340" x2="358" y2="360" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="327" y="320" width="31" height="40" fill-opacity="0.2"/>
       <text x="373" y="377">of1001[0]~0 | datab</text>
-      <line x1="358" y1="360" x2="370" y2="380" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="358" y1="360" x2="370" y2="380" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="389" y="397">combout</text>
       <rect x="370" y="380" width="16.8" height="20" fill-opacity="0.2"/>
-      <line x1="370" y1="380" x2="386" y2="400" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="370" y1="380" x2="386" y2="400" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="358" y="360" width="28" height="40" fill-opacity="0.2"/>
       <text x="408" y="417">of1010[0]~0 | datab</text>
-      <line x1="386" y1="400" x2="405" y2="420" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="386" y1="400" x2="405" y2="420" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="429" y="437">cout</text>
       <rect x="405" y="420" width="20.5" height="20" fill-opacity="0.2"/>
-      <line x1="405" y1="420" x2="426" y2="440" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="405" y1="420" x2="426" y2="440" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="386" y="400" width="40" height="40" fill-opacity="0.2"/>
       <text x="429" y="457">of1010[1]~2 | cin</text>
-      <line x1="426" y1="440" x2="426" y2="460" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="426" y1="440" x2="426" y2="460" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="452" y="477">combout</text>
       <rect x="426" y="460" width="22.75" height="20" fill-opacity="0.2"/>
-      <line x1="426" y1="460" x2="449" y2="480" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="426" y1="460" x2="449" y2="480" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="426" y="440" width="23" height="40" fill-opacity="0.2"/>
       <text x="462" y="497">of1011[1]~2 | dataa</text>
-      <line x1="449" y1="480" x2="459" y2="500" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="449" y1="480" x2="459" y2="500" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="480" y="517">combout</text>
       <rect x="459" y="500" width="18.8" height="20" fill-opacity="0.2"/>
-      <line x1="459" y1="500" x2="477" y2="520" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="459" y1="500" x2="477" y2="520" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="449" y="480" width="28" height="40" fill-opacity="0.2"/>
       <text x="492" y="537">of1100[1]~2 | datab</text>
-      <line x1="477" y1="520" x2="489" y2="540" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="477" y1="520" x2="489" y2="540" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="515" y="557">cout</text>
       <rect x="489" y="540" width="22.3" height="20" fill-opacity="0.2"/>
-      <line x1="489" y1="540" x2="512" y2="560" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="489" y1="540" x2="512" y2="560" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="477" y="520" width="35" height="40" fill-opacity="0.2"/>
       <text x="515" y="577">of1100[2]~4 | cin</text>
-      <line x1="512" y1="560" x2="512" y2="580" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="512" y1="560" x2="512" y2="580" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="537" y="597">combout</text>
       <rect x="512" y="580" width="22.75" height="20" fill-opacity="0.2"/>
-      <line x1="512" y1="580" x2="534" y2="600" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="512" y1="580" x2="534" y2="600" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="121" y="80" width="413" height="520" fill-opacity="0.2"/>
       <rect x="512" y="560" width="22" height="40" fill-opacity="0.2"/>
       <text x="547" y="617">of_r1101[2]~8 | datab</text>
-      <line x1="534" y1="600" x2="544" y2="620" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="534" y1="600" x2="544" y2="620" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="568" y="637">cout</text>
       <rect x="544" y="620" width="20.5" height="20" fill-opacity="0.2"/>
-      <line x1="544" y1="620" x2="565" y2="640" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="544" y1="620" x2="565" y2="640" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="534" y="600" width="31" height="40" fill-opacity="0.2"/>
       <text x="568" y="657">of_r1101[3]~10 | cin</text>
-      <line x1="565" y1="640" x2="565" y2="660" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="565" y1="640" x2="565" y2="660" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <text x="590" y="677">combout</text>
       <rect x="565" y="660" width="22.75" height="20" fill-opacity="0.2"/>
-      <line x1="565" y1="660" x2="587" y2="680" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="565" y1="660" x2="587" y2="680" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="565" y="640" width="22" height="40" fill-opacity="0.2"/>
       <text x="590" y="697">of_r1101[3]~reg0 | d</text>
-      <line x1="587" y1="680" x2="587" y2="700" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="587" y1="680" x2="587" y2="700" stroke="black" stroke-linecap="round" stroke-width="2"/>
     </g>
     <g>
       <rect x="587" y="680" width="0" height="20" fill-opacity="0.2"/>
       <text x="594" y="717">of_r1101[3]~reg0</text>
       <rect x="587" y="700" width="3.6999999999999997" height="20" fill-opacity="0.2"/>
-      <line x1="587" y1="700" x2="591" y2="720" stroke="black" stroke-linecap="round" stroke-width="3"/>
+      <line x1="587" y1="700" x2="591" y2="720" stroke="black" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="0" y="0" width="591" height="720" stroke="#13a" fill="none"/>
+      <line x1="0" y1="0" x2="0" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="50" y1="0" x2="50" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="100" y1="0" x2="100" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="150" y1="0" x2="150" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="200" y1="0" x2="200" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="250" y1="0" x2="250" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="300" y1="0" x2="300" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="350" y1="0" x2="350" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="400" y1="0" x2="400" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="450" y1="0" x2="450" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="500" y1="0" x2="500" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
+      <line x1="550" y1="0" x2="550" y2="720" stroke="#13a" stroke-dasharray="5, 5"/>
     </g>
   </g>
 </svg>
