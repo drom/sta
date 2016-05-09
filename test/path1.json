@@ -1,38 +1,7160 @@
 [
-{ "total":  0.000, "incr": 0.000, "meta": "  ", "type":  "    ", "element": "launch edge time" },
-{ "total":  2.211, "incr": 2.211, "meta": " R", "type":  "    ", "element": "clock network delay" },
-{ "total":  2.410, "incr": 0.199, "meta": "  ", "type":  "uTco", "element": "ir0[8]" },
-{ "total":  2.410, "incr": 0.000, "meta": "RR", "type":  "CELL", "element": ["ir0[8]", "q"] },
-{ "total":  3.017, "incr": 0.607, "meta": "RR", "type":  "  IC", "element": ["u_tail_offset", "u_len0010", "len[0]~0", "dataa"] },
-{ "total":  3.383, "incr": 0.366, "meta": "RF", "type":  "CELL", "element": ["u_tail_offset", "u_len0010", "len[0]~0", "combout"] },
-{ "total":  3.625, "incr": 0.242, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of0011[0]~0", "dataa"] },
-{ "total":  3.992, "incr": 0.367, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of0011[0]~0", "combout"] },
-{ "total":  4.229, "incr": 0.237, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of0100[0]~0", "datab"] },
-{ "total":  4.598, "incr": 0.369, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of0100[0]~0", "combout"] },
-{ "total":  4.835, "incr": 0.237, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of0101[0]~0", "datab"] },
-{ "total":  5.204, "incr": 0.369, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of0101[0]~0", "combout"] },
-{ "total":  5.573, "incr": 0.369, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of0110[0]~0", "datab"] },
-{ "total":  5.942, "incr": 0.369, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of0110[0]~0", "combout"] },
-{ "total":  6.179, "incr": 0.237, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of0111[0]~0", "datab"] },
-{ "total":  6.548, "incr": 0.369, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of0111[0]~0", "combout"] },
-{ "total":  6.785, "incr": 0.237, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of1000[0]~0", "datab"] },
-{ "total":  7.154, "incr": 0.369, "meta": "FF", "type":  "CELL", "element": ["u_tail_offset", "of1000[0]~0", "combout"] },
-{ "total":  7.392, "incr": 0.238, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of1001[0]~0", "datab"] },
-{ "total":  7.728, "incr": 0.336, "meta": "FR", "type":  "CELL", "element": ["u_tail_offset", "of1001[0]~0", "combout"] },
-{ "total":  8.105, "incr": 0.377, "meta": "RR", "type":  "  IC", "element": ["u_tail_offset", "of1010[0]~0", "datab"] },
-{ "total":  8.515, "incr": 0.410, "meta": "RR", "type":  "CELL", "element": ["u_tail_offset", "of1010[0]~0", "cout"] },
-{ "total":  8.515, "incr": 0.000, "meta": "RR", "type":  "  IC", "element": ["u_tail_offset", "of1010[1]~2", "cin"] },
-{ "total":  8.970, "incr": 0.455, "meta": "RR", "type":  "CELL", "element": ["u_tail_offset", "of1010[1]~2", "combout"] },
-{ "total":  9.170, "incr": 0.200, "meta": "RR", "type":  "  IC", "element": ["u_tail_offset", "of1011[1]~2", "dataa"] },
-{ "total":  9.546, "incr": 0.376, "meta": "RF", "type":  "CELL", "element": ["u_tail_offset", "of1011[1]~2", "combout"] },
-{ "total":  9.784, "incr": 0.238, "meta": "FF", "type":  "  IC", "element": ["u_tail_offset", "of1100[1]~2", "datab"] },
-{ "total": 10.230, "incr": 0.446, "meta": "FR", "type":  "CELL", "element": ["u_tail_offset", "of1100[1]~2", "cout"] },
-{ "total": 10.230, "incr": 0.000, "meta": "RR", "type":  "  IC", "element": ["u_tail_offset", "of1100[2]~4", "cin"] },
-{ "total": 10.685, "incr": 0.455, "meta": "RR", "type":  "CELL", "element": ["u_tail_offset", "of1100[2]~4", "combout"] },
-{ "total": 10.884, "incr": 0.199, "meta": "RR", "type":  "  IC", "element": ["of_r1101[2]~8", "datab"] },
-{ "total": 11.294, "incr": 0.410, "meta": "RR", "type":  "CELL", "element": ["of_r1101[2]~8", "cout"] },
-{ "total": 11.294, "incr": 0.000, "meta": "RR", "type":  "  IC", "element": ["of_r1101[3]~10", "cin"] },
-{ "total": 11.749, "incr": 0.455, "meta": "RR", "type":  "CELL", "element": ["of_r1101[3]~10", "combout"] },
-{ "total": 11.749, "incr": 0.000, "meta": "RR", "type":  "  IC", "element": ["of_r1101[3]~reg0", "d"] },
-{ "total": 11.823, "incr": 0.074, "meta": "RR", "type":  "CELL", "element": ["of_r1101[3]~reg0"] }
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.548,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.785,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.154,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.392,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.728,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.105,
+      "incr": 0.377,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.515,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.515,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.97,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.17,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.546,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.784,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.23,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.23,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.685,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.884,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.294,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.294,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.749,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.749,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.823,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.548,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.785,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.154,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.392,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.761,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.163,
+      "incr": 0.402,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.499,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.697,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 9.107,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 9.107,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 9.544,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.782,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.228,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.228,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.683,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.882,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.292,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.292,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.747,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.747,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.821,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.465,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.709,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.08,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.279,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.655,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.052,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.433,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.634,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.01,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.254,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.625,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.823,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.203,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.587,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.958,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.158,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.534,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.772,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.218,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.218,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.673,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.872,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.282,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.282,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.737,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.737,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.811,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.483,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.683,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.059,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.302,
+      "incr": 0.243,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.673,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.047,
+      "incr": 0.374,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.427,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.672,
+      "incr": 0.245,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.043,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.243,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.619,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.857,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.303,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.303,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.74,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.15,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.499,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.743,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.092,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.328,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.661,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.86,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.27,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.27,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.725,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.725,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.799,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.483,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.683,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.059,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.302,
+      "incr": 0.243,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.673,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.047,
+      "incr": 0.374,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.427,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.672,
+      "incr": 0.245,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.043,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.243,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.619,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.857,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.238,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.583,
+      "incr": 0.345,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.959,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.203,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.639,
+      "incr": 0.436,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 9.639,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.094,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.291,
+      "incr": 0.197,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.646,
+      "incr": 0.355,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.845,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.255,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.255,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.71,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.71,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.784,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.483,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.683,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.059,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.302,
+      "incr": 0.243,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.673,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.047,
+      "incr": 0.374,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.427,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.672,
+      "incr": 0.245,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.108,
+      "incr": 0.436,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 7.108,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 7.545,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.789,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.138,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.374,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.723,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.133,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.482,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.726,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.075,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.311,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.644,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.843,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.253,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.253,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.708,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.708,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.782,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.548,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.785,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.154,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.392,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.728,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.105,
+      "incr": 0.377,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.515,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.515,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.952,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.196,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.632,
+      "incr": 0.436,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 9.632,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.087,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.284,
+      "incr": 0.197,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.639,
+      "incr": 0.355,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.838,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.248,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.248,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.703,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.703,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.777,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.548,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.785,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.121,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.319,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.729,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 7.729,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.166,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.55,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.921,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.121,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.497,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.735,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.181,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.181,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.636,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.835,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.245,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.245,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.7,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.7,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.774,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.465,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.709,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.08,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.279,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.655,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.052,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.433,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.634,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.01,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.254,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.69,
+      "incr": 0.436,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 7.69,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.127,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.363,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.712,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.122,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.471,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.715,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.064,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.3,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.633,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.832,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.242,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.242,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.697,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.697,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.771,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.565,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.763,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.173,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 5.173,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 5.61,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.007,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.388,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.589,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.965,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.209,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.58,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.778,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.158,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.542,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.913,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.113,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.489,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.727,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.173,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.173,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.628,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.827,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.237,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.237,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.692,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.692,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.766,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.515,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.713,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.123,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 7.123,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 7.578,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.776,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.156,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.54,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.911,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.111,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.487,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.725,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.171,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.171,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.626,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.825,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.235,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.235,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.69,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.69,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.764,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.465,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.709,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.08,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.279,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.655,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.052,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.433,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.634,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.01,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.254,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.625,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.823,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.203,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.587,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.023,
+      "incr": 0.436,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 9.023,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 9.46,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.704,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.053,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.289,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.622,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.821,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.231,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.231,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.686,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.686,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.76,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.405,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 4.465,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.709,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.08,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.279,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.655,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.052,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.498,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 6.498,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 6.935,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.173,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.522,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.766,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.115,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.351,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.7,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.11,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.459,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.703,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.052,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.288,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.621,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.82,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.23,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.23,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.685,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.685,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.759,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.962,
+      "incr": 0.339,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.16,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.57,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.57,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 5.025,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.224,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.6,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.997,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.378,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.579,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.955,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.199,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.57,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.768,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.148,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.532,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.903,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.103,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.479,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.717,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.163,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.163,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.618,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.817,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.227,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.227,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.682,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.682,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.756,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.909,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.107,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.517,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 6.517,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 6.954,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.198,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.569,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.767,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.147,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.531,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.902,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.102,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.478,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.716,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.162,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.162,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.617,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.816,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.226,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.226,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.681,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.681,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.755,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.565,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.763,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.173,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 5.173,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 5.628,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.002,
+      "incr": 0.374,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.382,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.627,
+      "incr": 0.245,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.998,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.198,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.574,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.812,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.258,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.258,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.695,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.105,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.454,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.698,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.047,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.283,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.616,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.815,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.225,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.225,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.68,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.68,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.754,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.171,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.509,
+      "incr": 0.338,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.919,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 5.919,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 6.374,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.575,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.951,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.195,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.566,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.764,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.144,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.528,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.899,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.099,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.475,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.713,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.159,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.159,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.614,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.813,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.223,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.223,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.678,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.678,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.752,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[11]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.124,
+      "incr": 0.714,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "Equal2~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.3,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "Equal2~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.028,
+      "incr": 0.604,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 4.404,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.648,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.019,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.218,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.594,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.991,
+      "incr": 0.397,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.372,
+      "incr": 0.381,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.573,
+      "incr": 0.201,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.949,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.193,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.564,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.762,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.142,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 8.526,
+      "incr": 0.384,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 8.897,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.097,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.473,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.711,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.157,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 10.157,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 10.612,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.811,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.221,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.221,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.676,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.676,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.75,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.074,
+      "incr": 0.664,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.424,
+      "incr": 0.35,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.623,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.962,
+      "incr": 0.339,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.16,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.57,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 4.57,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 5.007,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.25,
+      "incr": 0.243,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 5.621,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.995,
+      "incr": 0.374,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.375,
+      "incr": 0.38,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.62,
+      "incr": 0.245,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 6.991,
+      "incr": 0.371,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.191,
+      "incr": 0.2,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "dataa"
+      ]
+    },
+    {
+      "total": 7.567,
+      "incr": 0.376,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.805,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.251,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.251,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.688,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.098,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.447,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.691,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.04,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.276,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.609,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.808,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.218,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.218,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.673,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.673,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.747,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ],
+  [
+    {
+      "total": 2.41,
+      "incr": 0,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "ir0[8]",
+        "q"
+      ]
+    },
+    {
+      "total": 3.017,
+      "incr": 0.607,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.383,
+      "incr": 0.366,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "u_len0010",
+        "len[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 3.625,
+      "incr": 0.242,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "dataa"
+      ]
+    },
+    {
+      "total": 3.992,
+      "incr": 0.367,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0011[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.229,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 4.598,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0100[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 4.835,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.204,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0101[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 5.573,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 5.942,
+      "incr": 0.369,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0110[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.179,
+      "incr": 0.237,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 6.515,
+      "incr": 0.336,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of0111[0]~0",
+        "combout"
+      ]
+    },
+    {
+      "total": 6.713,
+      "incr": 0.198,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "datab"
+      ]
+    },
+    {
+      "total": 7.123,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[0]~0",
+        "cout"
+      ]
+    },
+    {
+      "total": 7.123,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "cin"
+      ]
+    },
+    {
+      "total": 7.56,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1000[1]~2",
+        "combout"
+      ]
+    },
+    {
+      "total": 7.798,
+      "incr": 0.238,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "datab"
+      ]
+    },
+    {
+      "total": 8.244,
+      "incr": 0.446,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[1]~2",
+        "cout"
+      ]
+    },
+    {
+      "total": 8.244,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "cin"
+      ]
+    },
+    {
+      "total": 8.681,
+      "incr": 0.437,
+      "meta": "RF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1001[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.091,
+      "incr": 0.41,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 9.44,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1010[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 9.684,
+      "incr": 0.244,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "dataa"
+      ]
+    },
+    {
+      "total": 10.033,
+      "incr": 0.349,
+      "meta": "FF",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1011[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.269,
+      "incr": 0.236,
+      "meta": "FF",
+      "type": "IC",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "datab"
+      ]
+    },
+    {
+      "total": 10.602,
+      "incr": 0.333,
+      "meta": "FR",
+      "type": "CELL",
+      "element": [
+        "u_tail_offset",
+        "of1100[2]~4",
+        "combout"
+      ]
+    },
+    {
+      "total": 10.801,
+      "incr": 0.199,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[2]~8",
+        "datab"
+      ]
+    },
+    {
+      "total": 11.211,
+      "incr": 0.41,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[2]~8",
+        "cout"
+      ]
+    },
+    {
+      "total": 11.211,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~10",
+        "cin"
+      ]
+    },
+    {
+      "total": 11.666,
+      "incr": 0.455,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~10",
+        "combout"
+      ]
+    },
+    {
+      "total": 11.666,
+      "incr": 0,
+      "meta": "RR",
+      "type": "IC",
+      "element": [
+        "of_r1101[3]~reg0",
+        "d"
+      ]
+    },
+    {
+      "total": 11.74,
+      "incr": 0.074,
+      "meta": "RR",
+      "type": "CELL",
+      "element": [
+        "of_r1101[3]~reg0"
+      ]
+    }
+  ]
 ]
