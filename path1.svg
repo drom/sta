@@ -2045,7 +2045,6 @@
     </g>
     <g>
       <rect x="0" y="0" width="591" height="660" stroke="#35f" fill="none"/>
-      <line x1="0" y1="0" x2="0" y2="660" stroke="#35f" stroke-dasharray="5, 5"/>
       <line x1="50" y1="0" x2="50" y2="660" stroke="#35f" stroke-dasharray="5, 5"/>
       <line x1="100" y1="0" x2="100" y2="660" stroke="#35f" stroke-dasharray="5, 5"/>
       <line x1="150" y1="0" x2="150" y2="660" stroke="#35f" stroke-dasharray="5, 5"/>
