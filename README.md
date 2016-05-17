@@ -3,10 +3,10 @@
 ```
 npm i sta
 
-sta test/path1.json > path1.svg
+bin/sta.js test/path1.json > path1.svg
 ```
 
-Altera Quartus report parser.
+## Altera Quartus report parser.
 
 ```
 bin/quartus.js prj.sta.rpt > prj.json
@@ -14,7 +14,16 @@ bin/quartus.js prj.sta.rpt > prj.json
 
 ![ISA](https://rawgit.com/drom/sta/master/path1.svg)
 
-## JSON format
+## icestorm JSON support
+
+```
+bin/sta.js --icestorm test/icestorm.json > icestorm.svg
+```
+
+![ISA](https://rawgit.com/drom/sta/master/icestorm.svg)
+
+
+## Native JSON format
 
 ```js
 [ <-- group of paths
