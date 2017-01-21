@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha test",
-    "prepublish": "browserify src/sta.js > sta.js && cat src/header.sh sta.js > bin/sta.js && browserify src/quartus.js > quartus.js && cat src/header.sh quartus.js > src/quartus.js"
+    "prepublish": "browserify src/sta.js > build/sta.js && cat src/header.sh build/sta.js > bin/sta.js && browserify src/quartus.js > build/quartus.js && cat src/header.sh build/quartus.js > bin/quartus.js"
   },
   "repository": {
     "type": "git",
