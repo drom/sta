@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/drom/sta.svg?branch=master)](https://travis-ci.org/drom/sta)
 # STA
 
 ```
