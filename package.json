@@ -8,7 +8,7 @@
     "quartus": "bin/quartus.js"
   },
   "scripts": {
-    "test": "mocha test",
+    "test": "eslint src/*.js lib/*.js && mocha test",
     "prepublish": "{ echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js && { echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/drom/sta#readme",
   "devDependencies": {
     "browserify": "^13.3.0",
+    "eslint": "^2.13.1",
     "fs-extra": "^2.0.0",
     "mocha": "^2.5.3",
     "onml": "^0.4.0",

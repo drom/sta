@@ -4,7 +4,7 @@
 var lib = require('../lib'),
     fs = require('fs-extra'),
     yargs = require('yargs'),
-    onml = require('onml');
+    stringify = require('onml/lib/stringify');
 
 var argv = yargs.count('icestorm').argv;
 var fileName;
@@ -13,12 +13,14 @@ if (argv._.length === 1) {
     fileName = argv._[0];
     fs.readJson(fileName, function (err, src) {
         if (argv.icestorm) {
-            var src = lib.icestorm.import(src);
+            src = lib.icestorm.import(src);
         }
         var res = lib.render(src);
-        var svg = onml.s(res);
-        console.log(svg);
+        var svg = stringify(res);
+        process.stdout.write(svg + '\n');
     });
 } else {
-    console.log(argv);
+    process.stdout.write(JSON.stringify(argv) + '\n');
 }
+
+/**/
