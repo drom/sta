@@ -2,6 +2,7 @@ node_modules
 doc
 src
 test
+.eslintrc.js
 .travis.yml
 appveyor.yml
 build
