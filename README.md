@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/drom/sta.svg?branch=master)](https://travis-ci.org/drom/sta)
+[![Travis Status](https://travis-ci.org/drom/sta.svg?branch=master)](https://travis-ci.org/drom/sta)
+[![Appveyor status](https://ci.appveyor.com/api/projects/status/wwhf05s3ej4fm75h?svg=true)](https://ci.appveyor.com/project/drom/sta)
+
 # STA
 
 ```
