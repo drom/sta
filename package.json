@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "eslint src/*.js lib/*.js && mocha test",
-    "prepublish": "{ echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js && { echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js"
+    "prepublish": "mkdir -p bin && { echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js && { echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js"
   },
   "repository": {
     "type": "git",
