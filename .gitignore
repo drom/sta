@@ -1,4 +1,6 @@
 node_modules
+package-lock.json
+npm-debug.log
 doc
 bin
 build
