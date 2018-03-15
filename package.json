@@ -9,7 +9,10 @@
   },
   "scripts": {
     "test": "eslint src/*.js lib/*.js && mocha test",
-    "prepublish": "mkdir -p bin && { echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js && { echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js"
+    "brosta": "{ echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js ; chmod +x bin/sta.js",
+    "broquartus": "{ echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js ; chmod +x bin/quartus.js",
+    "brosynplify": "{ echo '#!/usr/bin/env node' ; browserify --node src/synplify.js ; } > bin/synplify.js ; chmod +x bin/synplify.js",
+    "prepublish": "mkdir -p bin && npm run brosta && npm run broquartus && npm run brosynplify"
   },
   "repository": {
     "type": "git",
