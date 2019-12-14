@@ -27,7 +27,7 @@ function parse (data) {
                 state = 'idle';
                 res.push(path);
             } else {
-                m = line.match(/([\w.\d\[\]]+)\s+(\w+)\s+(\w+)\s+(Out)\s+([\d.]+)\s+([\d.]+)/);
+                m = line.match(/([\w.\d[\]]+)\s+(\w+)\s+(\w+)\s+(Out)\s+([\d.]+)\s+([\d.]+)/);
                 if (m) {
                     path.push({
                         total: Number(m[6]),
