@@ -9,3 +9,4 @@ test
 appveyor.yml
 build
 *.svg
+.github
