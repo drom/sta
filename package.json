@@ -8,7 +8,7 @@
     "quartus": "bin/quartus.js"
   },
   "scripts": {
-    "test": "eslint src/*.js lib/*.js && mocha test",
+    "test": "eslint src lib test && mocha test",
     "brosta": "{ echo '#!/usr/bin/env node' ; browserify --node src/sta.js ; } > bin/sta.js ; chmod +x bin/sta.js",
     "broquartus": "{ echo '#!/usr/bin/env node' ; browserify --node src/quartus.js ; } > bin/quartus.js ; chmod +x bin/quartus.js",
     "brosynplify": "{ echo '#!/usr/bin/env node' ; browserify --node src/synplify.js ; } > bin/synplify.js ; chmod +x bin/synplify.js",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
     "browserify": "^16.1.1",
+    "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "fs-extra": "^8.1.0",
     "mocha": "^6.2.2",
