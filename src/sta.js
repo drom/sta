@@ -4,7 +4,7 @@
 var lib = require('../lib'),
     fs = require('fs-extra'),
     yargs = require('yargs'),
-    stringify = require('onml/lib/stringify');
+    stringify = require('onml/stringify');
 
 var argv = yargs.count('icestorm').argv;
 var fileName;
