@@ -25,22 +25,16 @@
   },
   "homepage": "https://github.com/drom/sta#readme",
   "devDependencies": {
-    "@drom/eslint-config": "^0.10.0",
+    "@drom/eslint-config": "^0.12.0",
     "browserify": "^17.0.0",
-    "chai": "^4.2.0",
-    "eslint": "^7.24.0",
-    "fs-extra": "^9.1.0",
-    "mocha": "^8.3.2",
+    "chai": "^4.3.10",
+    "eslint": "^8.55.0",
+    "fs-extra": "^11.2.0",
+    "mocha": "^10.2.0",
     "onml": "^2.1.0",
-    "yargs": "^16.2.0"
+    "yargs": "^17.7.2"
   },
   "eslintConfig": {
-    "extends": "@drom/eslint-config/eslint4/node8",
-    "rules": {
-      "indent": [
-        0,
-        4
-      ]
-    }
+    "extends": "@drom/eslint-config/eslint8/node12"
   }
 }
